@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ta">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>திருக்குறள் || 5_3_பிரிவுகள்</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="5_3.style.css">
+</head>
+
+<body>
+  <div class="container-fluid">
+    <!-- Navbar -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <h1>தமிழ்</h1>
+      </div>
+    </div>
+
+    <!-- Page Title -->
+    <div class="row">
+      <div class="col-12 text-center">
+        <h2 class="e">5.3_பிரிவுகள்</h2>
+      </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="row justify-content-center">
+
+      <!-- Left Sidebar -->
+      <div class="col-12 col-md-3" id="ls">
+        <div class="text-center">
+          <a href="திருக்குறள்.html">
+            <img src="https://www.silaii.com/cdn/shop/products/Thiruvalluvar_02.jpg?v=1722928855" width="100"
+              height="100" class="img-fluid mb-2">
+          </a>
+          <hr>
+          <p>
+            3 பெரும்பிரிவு<br>
+            9 இயல்கள்<br>
+            133 அதிகாரங்கள்<br>
+            1330 பாடல்கள்
+          </p>
+          <hr>
+          <label for="section1">பாலின் பெயரை தேர்வு செய்யவும்:</label>
+          <hr>
+          <select id="section1" onchange="secsearch1()" class="form-select mb-3">
+            <option value="">தேர்வு செய்யவும்</option>
+            <option value="aram1">அறத்துப்பால்</option>
+            <option value="porul1">பொருட்பால்</option>
+            <option value="inbam1">இன்பத்துப்பால் (அ) காமத்துப்பால்</option>
+          </select>
+          <div id="result1"></div>
+        </div>
+      </div>
+
+      <!-- Right Section -->
+      <div class="col-12 col-md-8" id="rs">
+        <div class="text-center">
+          <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2">
+            <label for="section" class="mb-2 mb-md-0">முப்பாலின் பெயர் :</label>
+
+            <!-- ✅ Dropdown instead of text input -->
+            <select id="section">
+              <option value="">-- தேர்வு செய்யவும் --</option>
+              <option value="அறத்துப்பால்">அறத்துப்பால்</option>
+              <option value="பொருட்பால்">பொருட்பால்</option>
+              <option value="காமத்துப்பால்">இன்பத்துப்பால் (அ) காமத்துப்பால்/option>
+            </select>
+
+            <button onclick="secsearch()">சோதனை_இடவும்</button>
+            <a href="5_3_பிரிவுகள்.html" id="reset" class="text-white text-decoration-none">மீட்டமை</a>
+          </div>
+          <div id="result" class="mt-3"></div>
+        </div>
+      </div>
+
+
+    </div> <!-- End of row -->
+  </div> <!-- End of container-fluid -->
+
+  <script src="5_3_பிரிவுகள்.js"></script>
+</body>
+
+
+</html>

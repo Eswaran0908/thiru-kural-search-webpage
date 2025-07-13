@@ -1,0 +1,113 @@
+.link,
+a {
+    text-decoration: none;
+}
+
+label {
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(86, 150, 61);
+    color: white;
+}
+
+button {
+    border: white;
+    width: 200px;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+    background-color: rgb(172, 27, 172);
+}
+
+input {
+    border: white;
+    padding: 3px;
+    text-align: center;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#result {
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px;
+}
+
+#result1 {
+    border: white;
+
+}
+
+h1 {
+    padding: 5px;
+    background-color: rgb(39, 202, 148);
+}
+
+h2 {
+    padding: 5px;
+    background-color: rgb(204, 138, 57);
+}
+
+#section1 {
+    color: rgb(11, 97, 93);
+    font-weight: bolder;
+    padding: 5px;
+    width: 220px;
+
+}
+
+#ls {
+
+    background-color: rgb(21, 54, 114);
+    color: white;
+    border-radius: 5px;
+    padding-top: 20px;
+    margin-left: 20px;
+    height: 700px;
+    width: 270px;
+
+}
+
+#rs {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    background-color: rgb(10, 46, 111);
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 1200px;
+    /* limits width on larger screens */
+    min-height: 500px;
+    /* lets height grow naturally if needed */
+    color: white;
+}
+
+#reset {
+    border: white;
+
+    border-radius: 10px;
+    padding-left: 55px;
+    padding-right: 55px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: white;
+    background-color: rgb(8, 147, 45);
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#section {
+    color: rgb(127, 135, 22);
+    font-weight: bolder;
+    padding: 5px;
+    width: 220px;
+    border-radius: 5px;
+}
